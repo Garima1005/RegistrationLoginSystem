@@ -1,0 +1,93 @@
+.container{
+    height: border-box;
+    height: 500px;
+    //background-color: red;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content:space-between;
+}
+
+h1{
+    background-color: blue;
+    color:white;
+    padding: 8px;
+    margin-top: 0px;
+}
+
+#left{
+    height: 400px;
+    width: 49%;
+    background-color: blue;
+    marging:5px;
+    padding-top:15px;  
+    border-radius: 5px;
+}
+#left h1{
+    text-align: center;
+}
+#left table{
+    margin: 10px auto;
+    color: white;
+    font-size: 20px;
+}
+#left table input{
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+}
+#left .btn{
+    margin-top: 15px;
+    height: 50px;
+    width: 150px;
+    color: blue;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: inherit;
+}
+#right{
+    height: 400px;
+    width: 49%;
+    border:2px solid blue;
+    marging:5px;
+    padding-top:15px;  
+    border-radius: 5px;
+}
+
+#right h1{
+    color: blue;
+    background-color: white;
+    text-align: center;
+}
+
+#right table{
+    margin: 10px auto;
+    color:blue;
+    font-size: 20px;
+    font-family: inherit;
+}
+#right input{
+    height: 35px;
+    width: 350px;
+    border:1px solid blue;
+    border-radius: 5px;
+    box-shadow: 2px 2px #888888;
+    
+}
+#right textarea{
+    height: 50px;
+    width: 350px;
+    border:1px solid blue;
+    border-radius: 5px;
+    box-shadow: 2px 2px #888888;
+}
+#right .btn1{
+    margin-top: 15px;
+    height: 50px;
+    width: 270px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: inherit;
+}
